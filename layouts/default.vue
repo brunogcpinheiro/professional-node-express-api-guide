@@ -66,13 +66,13 @@ p {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #088d08;
+  background: #5eb362;
   width: 5;
   border-radius: 20px;
 }
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 7px;
   height: 8px;
-  background-color: rgba(255, 255, 255, 0.1); /* or add it to the track */
+  background-color: #abdbaf; /* or add it to the track */
 }
 </style>

@@ -14,5 +14,6 @@
   min-height: calc(100vh - 70px);
   height: 100%;
   background: #fff;
+  padding: 20px;
 }
 </style>

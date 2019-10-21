@@ -1,6 +1,33 @@
 <template>
   <aside id="sidebar">
     <h1>Mundo</h1>
+    <h1>Mundo</h1>
+    <h1>Mundo</h1>
+    <h1>Mundo</h1>
+    <h1>Mundo</h1>
+    <h1>Mundo</h1>
+    <h1>Mundo</h1>
+    <h1>Mundo</h1>
+    <h1>Mundo</h1>
+    <h1>Mundo</h1>
+    <h1>Mundo</h1>
+    <h1>Mundo</h1>
+    <h1>Mundo</h1>
+    <h1>Mundo</h1>
+    <h1>Mundo</h1>
+    <h1>Mundo</h1>
+    <h1>Mundo</h1>
+    <h1>Mundo</h1>
+    <h1>Mundo</h1>
+    <h1>Mundo</h1>
+    <h1>Mundo</h1>
+    <h1>Mundo</h1>
+    <h1>Mundo</h1>
+    <h1>Mundo</h1>
+    <h1>Mundo</h1>
+    <h1>Mundo</h1>
+    <h1>Mundo</h1>
+    <h1>Mundo</h1>
   </aside>
 </template>
 
@@ -15,6 +42,8 @@
   height: 100%;
   background: #ebebeb;
   z-index: -1;
+  border-right: 3px solid #bcf5c6;
+  padding: 20px;
 }
 
 </style>

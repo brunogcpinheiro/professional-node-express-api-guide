@@ -9,12 +9,12 @@
 
 <style scoped>
 #header {
-  background: #c7c7c7;
+  background: #c7f3c9;
   height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 1px 1px 10px 0px #7e7e7e;
+  box-shadow: 1px 1px 4px 0px #46e260;
   z-index: 2;
 }
 
@@ -23,6 +23,6 @@ h3 {
 }
 
 span {
-  color: #088d08;
+  color: #39aa39;
 }
 </style>
