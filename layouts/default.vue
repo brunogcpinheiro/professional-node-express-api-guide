@@ -53,6 +53,7 @@ h6 {
 p {
   font-family: "Montserrat", "Lexend Deca", Arial, sans-serif;
   font-size: 14px;
+  line-height: 2;
 }
 
 ul {
@@ -63,6 +64,13 @@ a, button {
   cursor: pointer;
 }
 
+.word {
+  padding: 7px;
+  background: #dddddd;
+  color: #31b351;
+  font-weight: bold;
+  border-radius: 7px;
+}
 
 #layout {
   display: grid;

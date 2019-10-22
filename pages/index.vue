@@ -12,6 +12,10 @@
         <p>NodeJS</p>
       </div>
       <div class="techs">
+        <img src="~assets/npm.png" alt="NPM">
+        <p>Node Package Manager</p>
+      </div>
+      <div class="techs">
         <img src="~assets/express.png" alt="Express">
         <p>Express</p>
       </div>
