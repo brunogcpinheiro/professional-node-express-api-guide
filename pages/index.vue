@@ -34,11 +34,21 @@
     </div>
     <p>We be able to create an API that manage Bootcamps, Reviews, Courses, Users, Authentication, Security and much more!</p>  
     <h2>I'm Bruno Carpinelli and you can find me <a href="#">here</a></h2>
+    <br />
+    <br />
+    <nuxt-link to="/getting-started">
+      <Button>Next step: Getting started</Button>
+    </nuxt-link>
   </div>
 </template>
 
 <script>
+import Button from "@/components/Button.vue";
+
 export default {
+  components: {
+    Button
+  }
 }
 </script>
 

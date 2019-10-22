@@ -28,6 +28,10 @@ export default {
           route: '/getting-started',
           title: 'Getting Started'
         },
+        {
+          route: '/first-routes',
+          title: 'First Routes'
+        },
       ],
       isActive: false
     };

@@ -76,12 +76,27 @@
         </code>
       </pre>  
     </div>
+    <br />
+    <br />
+    <div class="footer">
+      <nuxt-link exact to="/">
+        <Button>Back step: Home</Button>
+      </nuxt-link>
+      <nuxt-link to="/first-routes">
+        <Button>Next step: Basic Routes</Button>
+      </nuxt-link>
+    </div>
   </div>
 </template>
 
 <script>
+import Button from "@/components/Button";
+
 export default {
-  name: "Getting-Started"
+  name: "Getting-Started",
+  components: {
+    Button
+  }
 }
 </script>
 

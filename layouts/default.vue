@@ -131,4 +131,11 @@ code.language-javascript {
   font-weight: bold;
   font-size: 0.875rem;
 }
+
+.footer {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: space-between;
+}
 </style>
