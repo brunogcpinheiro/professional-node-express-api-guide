@@ -32,6 +32,10 @@ export default {
           route: '/first-routes',
           title: 'First Routes'
         },
+        {
+          route: '/abstract-and-controllers',
+          title: 'Abstract Routes and Add Controllers'
+        },
       ],
       isActive: false
     };

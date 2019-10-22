@@ -64,7 +64,7 @@
       <nuxt-link to="/getting-started">
         <Button>Back step: Getting Started</Button>
       </nuxt-link>
-      <nuxt-link to="/abstract-routes-and-add-controllers">
+      <nuxt-link to="/abstract-and-controllers">
         <Button>Next step: Abstract Routes and add Controllers</Button>
       </nuxt-link>
     </div>
