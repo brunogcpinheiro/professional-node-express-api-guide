@@ -1,12 +1,10 @@
 <template>
   <div id="layout">
     <Header />
-    <div class="content">
-      <Sidebar />
-      <main>
-        <Nuxt/>
-      </main>
-    </div>
+    <Sidebar />
+    <main class="main">
+      <Nuxt/>
+    </main>
   </div>
 </template>
 
@@ -49,20 +47,37 @@ h4,
 h5,
 h6 {
   font-family: "Lexend Deca", "Montserrat", Arial, sans-serif;
+  color: #31b351;
 }
 
 p {
   font-family: "Montserrat", "Lexend Deca", Arial, sans-serif;
-  font-size: 12px;
+  font-size: 14px;
 }
+
+ul {
+  list-style: none;
+}
+
+a, button {
+  cursor: pointer;
+}
+
 
 #layout {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 
+    "header header"
+    "aside main"
 }
 
-.content {
-  display: flex;
+header { grid-area: header }
+aside { grid-area: aside }
+main { 
+  grid-area: main;
+  width: 100%;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -74,5 +89,23 @@ p {
   width: 7px;
   height: 8px;
   background-color: #abdbaf; /* or add it to the track */
+}
+
+.container {
+  min-height: calc(100vh - 70px);
+  height: 100%;
+  background: #fff;
+  padding: 20px;
+}
+
+.active-link {
+  border-bottom: 3px solid #2acf2a;
+}
+
+pre.language-javascript {
+  margin: 20px 0;
+  padding: 0;
+  display: flex;
+  width: 70%;
 }
 </style>

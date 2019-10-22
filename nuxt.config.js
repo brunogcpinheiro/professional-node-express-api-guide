@@ -27,13 +27,16 @@ export default {
    ** Global CSS
    ** Doc: https://nuxtjs.org/api/configuration-css
    */
-  css: [],
+  css: [{ src: "vue-code-highlight/themes/duotone-sea.css", lang: "css" }],
+  router: {
+    linkActiveClass: "active-link"
+  },
 
   /*
    ** Plugins to load before mounting the App
    ** Doc: https://nuxtjs.org/guide/plugins
    */
-  plugins: [],
+  plugins: [{ src: "~/plugins/vue-codehighlight" }],
 
   /*
    ** Nuxt.js modules
