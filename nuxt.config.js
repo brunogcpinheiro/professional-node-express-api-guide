@@ -27,7 +27,7 @@ export default {
    ** Global CSS
    ** Doc: https://nuxtjs.org/api/configuration-css
    */
-  css: [{ src: "vue-code-highlight/themes/duotone-sea.css", lang: "css" }],
+  css: [{ src: "vue-code-highlight/themes/prism.css", lang: "css" }],
   router: {
     linkActiveClass: "active-link"
   },

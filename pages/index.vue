@@ -33,6 +33,7 @@
       </div>
     </div>
     <p>We be able to create an API that manage Bootcamps, Reviews, Courses, Users, Authentication, Security and much more!</p>  
+    <h2>I'm Bruno Carpinelli and you can find me <a href="#">here</a></h2>
   </div>
 </template>
 
